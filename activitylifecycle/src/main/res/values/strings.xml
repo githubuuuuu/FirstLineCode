@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ActivityLifeCycle</string>
+    <!-- MainActivity -->
+    <string name="MainActivity_name">Main Activity</string>
+    <string name="Button_11">Intent: Start SecondActivity(.class)</string>
+    <string name="Button_12">Intent: Start SecondActivity(ACTION)</string>
+    <string name="Button_13">Intent: Start NormalActivity(ACTION)</string>
+    <string name="Button_14">Intent: Start DialogActivity(ACTION)</string>
+
+    <!-- SecondActivity -->
+    <string name="SecondActivity_name">Second Activity</string>
+    <string name="Button_21">Destroy all Activity.</string>
+
+    <!-- NormalActivity -->
+    <string name="NormalActivity_name">Normal Activity</string>
+    <string name="Button_N1">Intent: Start Second Activity(ACTION)</string>
+    <string name="TextView_N1">This is a TextView_N1 in Normal Activity.</string>
+
+    <!-- DialogActivity -->
+    <string name="DialogActivity_name">Dialog Activity</string>
+    <string name="TextView_D1">This is a TextView_D1 in Dialog Activity.</string>
+
+</resources>

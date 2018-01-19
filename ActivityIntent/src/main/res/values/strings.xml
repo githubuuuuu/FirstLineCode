@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ActivityIntent</string>
+    <!-- First Activity -->
+    <string name="FirstActivity_title_name">First Activity</string>
+    <string name="Button_11">Hello, world!</string>
+    <string name="Button_12">Intent(class): Start Second Activity</string>
+    <string name="Button_13">Intent(action): Start Third Activity</string>
+
+    <!-- Second Activity -->
+    <string name="SecondActivity_title_name">Second Activity</string>
+    <string name="Button_21">Destroy Activity</string>
+    <string name="Button_22">Intent.ACTION_VIEW: URL</string>
+    <string name="Button_23">Intent.ACTION_DIAL: TEL</string>
+    <string name="Button_24">Intent.ACTION_VIEW: MAP</string>
+
+    <!-- Third Activity -->
+    <string name="ThirdActivity_title_name">Third Activity</string>
+    <string name="Button_31">Intent(action): Start WebView Activiey</string>
+    <string name="Button_32">Destroy Activity &amp; Intent Return a Data.</string>
+
+    <!-- WebViewActivity Activity -->
+    <string name="WebViewActivity_title_name">Web View</string>
+
+    <!-- WebViewActivity menu -->
+    <string name="Web_Back">Back</string>
+    <string name="Web_Forward">Forward</string>
+
+    <!-- WebViewPublicActivity Activity -->
+    <string name="WebViewPublicActivity_title_name">Web View Public</string>
+
+</resources>

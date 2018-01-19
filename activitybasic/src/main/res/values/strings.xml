@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ActivityBasic</string>
+    <string name="Button_11">Button 11: Toast Message</string>
+
+</resources>
