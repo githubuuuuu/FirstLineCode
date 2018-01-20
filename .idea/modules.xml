@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/6datastorage/6datastorage.iml" filepath="$PROJECT_DIR$/6datastorage/6datastorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/ActivityIntent/ActivityIntent.iml" filepath="$PROJECT_DIR$/ActivityIntent/ActivityIntent.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstLineCode.iml" filepath="$PROJECT_DIR$/FirstLineCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitybasic/activitybasic.iml" filepath="$PROJECT_DIR$/activitybasic/activitybasic.iml" />

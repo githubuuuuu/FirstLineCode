@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/6datastorage" />
             <option value="$PROJECT_DIR$/ActivityIntent" />
             <option value="$PROJECT_DIR$/activitybasic" />
             <option value="$PROJECT_DIR$/activitylifecycle" />
