@@ -17,14 +17,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:label="@string/FilePersistenceActivity_TitleLabel"
-            android:name=".FilePersistenceActivity">
+            android:name=".FilePersistenceActivity"
+            android:label="@string/FilePersistenceActivity_TitleLabel">
             <intent-filter>
                 <action android:name="com.example.a6datastorage.FILEPERSISTENCE_ACTION" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:label="@string/SharedPreferencesActivity_TitleLabel"
+            android:name=".SharedPreferencesActivity">
+            <intent-filter>
+                <action android:name="com.example.a6datastorage.SHAREDPREFERENCES_ACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -25,7 +25,15 @@ public class MainActivity extends BaseActivity {
             }
         });
 
-        edit_M1 = (EditText) findViewById(R.id.EditText_M1);
+        Button button_M2 = (Button) findViewById(R.id.Button_M2);
+        button_M2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.example.a6datastorage.SHAREDPREFERENCES_ACTION");
+                startActivity(intent);
+            }
+        });
+//        edit_M1 = (EditText) findViewById(R.id.EditText_M1);
 
 
     }

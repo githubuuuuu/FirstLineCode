@@ -2,11 +2,20 @@
     <string name="app_name">6DataStorage</string>
     <!-- Main Activity -->
     <string name="MainActivity_TitleLabel">Data Persistence</string>
-    <string name="Button_M1">Button_M1</string>
+    <string name="Button_M1">Button_M1: Start FilePersistenceActivity</string>
+    <string name="Button_M2">Button_M2: Start SharedPreferencesActivity</string>
     <string name="EditText_M1">EditText_M1</string>
 
     <!-- File Persistence Activity -->
     <string name="FilePersistenceActivity_TitleLabel">File Persistence</string>
     <string name="EditText_FP1">EditText_FP1</string>
+    <string name="Button_FP1">Button_FP1: Save</string>
 
+    <!-- Shared Preferences Activity -->
+    <string name="SharedPreferencesActivity_TitleLabel">Shared Preferences</string>
+    <string name="Button_SP1">Button_SP1: Save</string>
+    <string name="Button_SP2">Button_SP2: Restore</string>
+    <string name="EditText_SP1">name</string>
+    <string name="EditText_SP2">18</string>
+    <string name="EditText_SP3">YES/NO</string>
 </resources>

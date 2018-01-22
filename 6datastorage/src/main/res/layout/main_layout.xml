@@ -9,6 +9,12 @@
         android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Button_M2"
+        android:text="@string/Button_M2"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <EditText
         android:id="@+id/EditText_M1"
         android:hint="@string/EditText_M1"
