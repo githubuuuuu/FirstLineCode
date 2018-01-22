@@ -4,27 +4,27 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/Button_M1"
-        android:text="@string/Button_M1"
+        android:id="@+id/Button_DS1"
+        android:text="@string/Button_DS1"
         android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/Button_M2"
-        android:text="@string/Button_M2"
+        android:id="@+id/Button_DS2"
+        android:text="@string/Button_DS2"
         android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
-        android:id="@+id/Button_M3"
-        android:text="@string/Button_M3"
+        android:id="@+id/Button_DS3"
+        android:text="@string/Button_DS3"
         android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/EditText_M1"
-        android:hint="@string/EditText_M1"
+    <Button
+        android:id="@+id/Button_DS4"
+        android:text="@string/Button_DS4"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
 </LinearLayout>

@@ -26,10 +26,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:label="@string/SharedPreferencesActivity_TitleLabel"
-            android:name=".SharedPreferencesActivity">
+            android:name=".SharedPreferencesActivity"
+            android:label="@string/SharedPreferencesActivity_TitleLabel">
             <intent-filter>
                 <action android:name="com.example.a6datastorage.SHAREDPREFERENCES_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/DataSQLiteActivity_TitleLabel"
+            android:name="com.example.sqlitestorage.DataSQLiteActivity">
+            <intent-filter>
+                <action android:name="com.example.sqlitestorage.DATASQLITE_ACTION" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

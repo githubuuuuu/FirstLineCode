@@ -4,11 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
 public class MainActivity extends BaseActivity {
 
-    private EditText edit_M1;
+//    private EditText edit_M1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +29,15 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("com.example.a6datastorage.SHAREDPREFERENCES_ACTION");
+                startActivity(intent);
+            }
+        });
+
+        Button button_M3 = (Button) findViewById(R.id.Button_M3);
+        button_M3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.example.sqlitestorage.DATASQLITE_ACTION");
                 startActivity(intent);
             }
         });

@@ -8,15 +8,19 @@ import android.widget.EditText;
 
 public class SharedPreferencesActivity extends BaseActivity {
 
+    private EditText editText_1;
+    private EditText editText_2;
+    private EditText editText_3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.sharedpreferences_layout);
 
-        final EditText editText_1 = (EditText) findViewById(R.id.EditText_SP1);
-        final EditText editText_2 = (EditText) findViewById(R.id.EditText_SP2);
-        final EditText editText_3 = (EditText) findViewById(R.id.EditText_SP3);
+        editText_1 = (EditText) findViewById(R.id.EditText_SP1);
+        editText_2 = (EditText) findViewById(R.id.EditText_SP2);
+        editText_3 = (EditText) findViewById(R.id.EditText_SP3);
 
         Button button_1 = (Button) findViewById(R.id.Button_SP1);
         button_1.setOnClickListener(new View.OnClickListener(){
@@ -27,13 +31,17 @@ public class SharedPreferencesActivity extends BaseActivity {
                 Boolean married;
                 // st1 需要检查输入值是否为数字，当输入的值无效时，给出提示。
                 String st1 = editText_2.getText().toString();
-                String st2 = editText_3.getText().toString();
                 if (st1 != null && st1.length() > 0) {
                     age = Integer.parseInt(st1);
                 }
+                String st2 = editText_3.getText().toString();
                 if (st2.equals("YES")){
                     married = true;
-                } else married = false;
+                } else if (st2.equals("NO")){
+                    married = false;
+                } else {
+                    married = false;
+                }
                 save(name, age, married);
             }
         });
@@ -44,13 +52,15 @@ public class SharedPreferencesActivity extends BaseActivity {
             public void onClick(View v) {
                 SharedPreferences pre = getSharedPreferences("data", MODE_PRIVATE);
                 editText_1.setText(pre.getString("name", "UserID"));
-                editText_2.setText(pre.getInt("age", 18));
+                int i = pre.getInt("age", 18);
+                String str1 = i+"";
+                editText_2.setText(str1);
                 Boolean bl = pre.getBoolean("married", false);
-                String st1;
+                String st2;
                 if (bl) {
-                    st1 = "YES";
-                } else st1 = "NO";
-                editText_3.setText(st1);
+                    st2 = "YES";
+                } else st2 = "NO";
+                editText_3.setText(st2);
             }
         });
     }
