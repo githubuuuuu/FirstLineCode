@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">6DataStorage</string>
     <!-- Main Activity -->
+    <string name="MainActivity_TitleLabel">Data Persistence</string>
     <string name="Button_M1">Button_M1</string>
     <string name="EditText_M1">EditText_M1</string>
 
     <!-- File Persistence Activity -->
+    <string name="FilePersistenceActivity_TitleLabel">File Persistence</string>
     <string name="EditText_FP1">EditText_FP1</string>
+
 </resources>

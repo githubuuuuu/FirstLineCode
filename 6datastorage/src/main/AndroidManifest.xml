@@ -16,7 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FilePersistenceActivity"></activity>
+        <activity
+            android:label="@string/FilePersistenceActivity_TitleLabel"
+            android:name=".FilePersistenceActivity">
+            <intent-filter>
+                <action android:name="com.example.a6datastorage.FILEPERSISTENCE_ACTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

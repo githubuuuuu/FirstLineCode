@@ -5,7 +5,8 @@
 
     <Button
         android:id="@+id/Button_M1"
-
+        android:text="@string/Button_M1"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
