@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 
+    // Database table field: id, author, price, pages, name
     public static final String CREATE_BOOK = "create table Book ("
             + "id integer primary key autoincrement, "
             + "author text, "

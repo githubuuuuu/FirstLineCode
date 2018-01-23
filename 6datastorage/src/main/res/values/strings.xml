@@ -22,8 +22,10 @@
 
     <!-- SQLite ACID Activity -->
     <string name="DataSQLiteActivity_TitleLabel">Data SQLite</string>
-    <string name="Button_DS1">Button_DS1: Add</string>
-    <string name="Button_DS2">Button_DS2: Delete</string>
-    <string name="Button_DS3">Button_DS3: Update</string>
-    <string name="Button_DS4">Button_DS4: Select</string>
+    <string name="Button_DS1">Button_DS1: Create Database</string>
+    <string name="Button_DS2">Button_DS2: Update Database</string>
+    <string name="Button_DS3">Button_DS3: Create Data</string>
+    <string name="Button_DS4">Button_DS4: Update Data</string>
+    <string name="Button_DS5">Button_DS5: Delete Data</string>
+    <string name="Button_DS6">Button_DS6: Retrieve(select) Data</string>
 </resources>
