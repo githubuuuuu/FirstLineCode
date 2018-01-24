@@ -41,6 +41,16 @@ public class MainActivity extends BaseActivity {
                 startActivity(intent);
             }
         });
+
+        Button button_M4 = (Button) findViewById(R.id.Button_M4);
+        button_M4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.example.sqlitestorage.LITEPAL_ACTION");
+                startActivity(intent);
+            }
+        });
+
 //        edit_M1 = (EditText) findViewById(R.id.EditText_M1);
 
 

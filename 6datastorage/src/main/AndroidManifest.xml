@@ -3,6 +3,7 @@
     package="com.example.a6datastorage">
 
     <application
+        android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -35,10 +36,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:label="@string/DataSQLiteActivity_TitleLabel"
-            android:name="com.example.sqlitestorage.DataSQLiteActivity">
+            android:name="com.example.sqlitestorage.DataSQLiteActivity"
+            android:label="@string/DataSQLiteActivity_TitleLabel">
             <intent-filter>
                 <action android:name="com.example.sqlitestorage.DATASQLITE_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/LitepalActivity_TitleLabel"
+            android:name="com.example.sqlitestorage.LitepalActivity">
+            <intent-filter>
+                <action android:name="com.example.sqlitestorage.LITEPAL_ACTION" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

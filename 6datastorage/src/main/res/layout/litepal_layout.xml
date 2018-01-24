@@ -4,33 +4,38 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/Button_M1"
-        android:text="@string/Button_M1"
-        android:textAllCaps="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/Button_M2"
-        android:text="@string/Button_M2"
-        android:textAllCaps="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/Button_M3"
-        android:text="@string/Button_M3"
-        android:textAllCaps="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/Button_M4"
-        android:text="@string/Button_M4"
+        android:id="@+id/Button_LA1"
+        android:text="@string/Button_LA1"
         android:textAllCaps="false"
         android:textAlignment="textStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/EditText_M1"
-        android:hint="@string/EditText_M1"
+    <Button
+        android:id="@+id/Button_LA2"
+        android:text="@string/Button_LA2"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Button_LA3"
+        android:text="@string/Button_LA3"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Button_LA4"
+        android:text="@string/Button_LA4"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Button_LA5"
+        android:text="@string/Button_LA5"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

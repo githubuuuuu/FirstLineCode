@@ -5,6 +5,7 @@
     <string name="Button_M1">Button_M1: Start FilePersistenceActivity</string>
     <string name="Button_M2">Button_M2: Start SharedPreferencesActivity</string>
     <string name="Button_M3">Button_M3: Start DataSQLiteActivity</string>
+    <string name="Button_M4">Button_M4: Start LitepalActivity</string>
     <string name="EditText_M1">EditText_M1</string>
 
     <!-- File Persistence Activity -->
@@ -28,4 +29,13 @@
     <string name="Button_DS4">Button_DS4: Update Data</string>
     <string name="Button_DS5">Button_DS5: Delete Data</string>
     <string name="Button_DS6">Button_DS6: Retrieve(select) Data</string>
+
+    <!-- Litepal Activity -->
+    <string name="LitepalActivity_TitleLabel">Litepal Practice</string>
+    <string name="Button_LA1">Button_LA1: Create Database</string>
+    <string name="Button_LA2">Button_LA2: Insert Data</string>
+    <string name="Button_LA3">Button_LA3: Update Data</string>
+    <string name="Button_LA4">Button_LA4: Delete Data</string>
+    <string name="Button_LA5">Button_LA5: Retrieve(Query) Data</string>
+
 </resources>
