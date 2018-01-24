@@ -1,1 +1,1 @@
-include ':ActivityIntent', ':activitybasic', ':activitylifecycle', ':6datastorage'
+include ':ActivityIntent', ':activitybasic', ':activitylifecycle', ':6datastorage', ':materialdesign'

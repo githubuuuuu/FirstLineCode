@@ -32,8 +32,8 @@
     	</list>
     -->
     <list>
-        <mapping class="com.example.sqlitestorage.Book1"></mapping>
-        <mapping class="com.example.sqlitestorage.Category1"></mapping>
+        <mapping class="com.example.sqlitestorage.Book1"> </mapping>
+        <mapping class="com.example.sqlitestorage.Category1"> </mapping>
     </list>
 
     <!--

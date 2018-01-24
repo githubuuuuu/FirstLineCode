@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/FirstLineCode.iml" filepath="$PROJECT_DIR$/FirstLineCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitybasic/activitybasic.iml" filepath="$PROJECT_DIR$/activitybasic/activitybasic.iml" />
       <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialdesign/materialdesign.iml" filepath="$PROJECT_DIR$/materialdesign/materialdesign.iml" />
     </modules>
   </component>
 </project>
